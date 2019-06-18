@@ -1,0 +1,22 @@
+box: laravel/homestead
+version: 0
+ip: 192.168.10.20
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/zllword/opensource/laravel/laravel-shop-advanced
+        to: /home/vagrant/code
+sites:
+    -
+        map: shop.test
+        to: /home/vagrant/code/public
+databases:
+    - homestead
+    - laravel-shop
+name: laravel-shop-advanced
+hostname: laravel-shop-advanced
