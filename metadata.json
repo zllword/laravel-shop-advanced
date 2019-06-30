@@ -3,11 +3,11 @@
     "versions": 
     [
         {
-            "version": "8.0.0",
+            "version": "v8.0.0-alpha2",
             "providers": [
                 {
                   "name": "virtualbox",
-                  "url": "/Users/zllword/Documents/virtualbox-8.0.0.box"
+                  "url": "/Users/zllword/Documents/virtualbox-v8.0.0-alpha2.box"
                 }
             ]
         }
