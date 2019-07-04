@@ -9,10 +9,10 @@ keys:
     - ~/.ssh/id_rsa
 folders:
     - map: /Users/zllword/opensource/laravel/shopadvancedlaravel
-      to: /home/vagrant/code
+      to: /vagrant
 sites:
     - map: shop.test
-      to: /home/vagrant/code/public
+      to: /vagrant/public
       php: "7.2"
 databases:
     - homestead
