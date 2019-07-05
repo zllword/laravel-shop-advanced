@@ -9,13 +9,12 @@ keys:
     - ~/.ssh/id_rsa
 folders:
     - map: /Users/zllword/opensource/laravel/shopadvancedlaravel
-      to: /vagrant
+      to: /home/vagrant/code
 sites:
-    - map: shop.test
-      to: /vagrant/public
-      php: "7.2"
+    - map: homestead.test
+      to: /home/vagrant/code/public
+      php: '7.2'
 databases:
-    - homestead
     - laravel-shop
-name: laravel-shop-advanced
-hostname: laravel-shop-advanced
+name: shopadvancedlaravel
+hostname: shopadvancedlaravel
